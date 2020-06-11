@@ -1,0 +1,22 @@
+{
+  "require": {
+    "telegram-bot/api": "^2.3",
+    "guzzlehttp/guzzle": "~6.0",
+    "illuminate/database": "^7.5",
+    "kavenegar/php": "^1.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "app/Models/Users.php",
+      "app/Models/Brokerages.php",
+      "app/Models/Messages.php",
+      "app/Models/Settings.php",
+      "app/Traits/Language.php",
+      "app/Controller/V1/CommandController.php",
+      "app/Controller/V1/CallBackController.php",
+      "app/Controller/V1/MessageController.php",
+      "app/Controller/V1/Controller.php"
+    ]
+  }
+}
